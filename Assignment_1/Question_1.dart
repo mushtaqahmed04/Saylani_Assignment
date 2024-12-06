@@ -4,6 +4,7 @@ void main (){
     if(length==breath){
         print ("It is a Square value");
     }
+    
     else{
         print("It is a rectangular value");
     }
