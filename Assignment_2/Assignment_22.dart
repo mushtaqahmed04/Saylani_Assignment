@@ -3,22 +3,16 @@
 // exists in the cart. Print "Product found" if it exists, otherwise print "Product not
 // found".
 
-// void main(){
-//   Map Cart ={
-//     "Apple":50,
-//     "Banana" :60,
-//     "Orange" :52
-//   };
-//     if(Cart.containsKey("Apple")){
-//         print("Product Found");
-//     }
-//     else{
-//       print("Product Not Found");
-//     }
-// }
-
-void main (){
-  final date =DateTime.now();
-  print(date);
-
+void main(){
+  Map Cart ={
+    "Apple":50,
+    "Banana" :60,
+    "Orange" :52
+  };
+    if(Cart.containsKey("Apple")){
+        print("Product Found");
+    }
+    else{
+      print("Product Not Found");
+    }
 }
